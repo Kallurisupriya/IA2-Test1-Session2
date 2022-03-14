@@ -28,8 +28,9 @@ void output(int n,int composite)
 int main()
 {
   int n,composite;
-  n=input_number;
+  printf("enter the number\n");
+  n=input_number();
   composite=is_composite(n);
-  void output(n,composite);
+  output(n,composite);
   return 0;
 }
